@@ -2,614 +2,1004 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <title>KIM MINSANG | Racing Driver Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="GT & Touring Car Racing Driver, AMG Main Instructor KIM MINSANG – Official sponsor profile page." />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <title>KIM MINSANG · GT & Touring Car Racing Driver</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kim Minsang · GT & touring car racing driver & AMG main instructor. Driver profile, media gallery, race history and partnership opportunities." />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg: #05060a;
-      --bg-elevated: #10121b;
-      --bg-soft: #151827;
-      --accent: #e0b46a;
-      --accent-soft: rgba(224, 180, 106, 0.2);
-      --text: #f5f5f7;
-      --muted: #9da2b8;
-      --border-soft: #25283a;
-      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.6);
+      --bg: #040712;
+      --bg-soft: #090d1c;
+      --bg-card: #0d101f;
+      --bg-card-soft: #111526;
+      --accent: #f6c05c;
+      --accent-soft: #f6c05c1f;
+      --text-main: #f5f7ff;
+      --text-sub: #a2a7c3;
+      --text-mute: #717797;
+      --border-soft: #1b2136;
+      --brand-gold: #f0c15c;
+      --chip-bg: #121729;
+      --chip-border: #252c45;
+      --shadow-soft: 0 24px 60px rgba(0, 0, 0, 0.8);
+      --radius-xl: 24px;
       --radius-lg: 18px;
-      --radius-xl: 26px;
-      --max-width: 1120px;
+      --radius-md: 12px;
+      --radius-pill: 999px;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    html, body {
-      background: radial-gradient(circle at top, #151827 0, #05060a 52%, #020308 100%);
-      color: var(--text);
-      font-family: "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      scroll-behavior: smooth;
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
-    body { min-height: 100vh; }
-    a { color: inherit; text-decoration: none; }
-
-    .page { max-width: var(--max-width); margin: 0 auto; padding: 24px 18px 80px; }
-
-    .en {
-      display: block;
-      font-size: 11px;
-      color: var(--muted);
-      margin-top: 2px;
-      font-family: "Noto Sans KR", system-ui, sans-serif;
+    body {
+      background: radial-gradient(circle at top, #141b33 0, #050814 60%, #020308 100%);
+      color: var(--text-main);
+      font-family: "Pretendard", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.6;
     }
 
-    /* NAV */
-    .nav {
-      position: sticky; top: 0; z-index: 20;
-      backdrop-filter: blur(16px);
-      background: linear-gradient(to bottom, rgba(5,6,10,0.95), rgba(5,6,10,0.6));
-      border-radius: 0 0 18px 18px;
-      border-bottom: 1px solid rgba(255,255,255,0.04);
-      margin: -24px -18px 24px;
-      padding: 12px 18px;
-    }
-    .nav-inner {
-      max-width: var(--max-width); margin: 0 auto;
-      display: flex; align-items: center; justify-content: space-between; gap: 16px;
-    }
-    .nav-logo { display: flex; align-items: baseline; gap: 10px; }
-    .nav-logo-main {
-      font-family: "Oswald", system-ui, sans-serif;
-      font-size: 20px; letter-spacing: 0.26em; text-transform: uppercase;
-    }
-    .nav-logo-tag {
-      font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted);
-    }
-    .nav-links {
-      display: flex; gap: 18px;
-      font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
-    }
-    .nav-links a {
-      color: var(--muted); padding-bottom: 4px; border-bottom: 1px solid transparent;
-      transition: color 0.25s ease, border-color 0.25s ease;
-    }
-    .nav-links a:hover { color: var(--accent); border-color: var(--accent-soft); }
-
-    /* HERO */
-    .hero {
-      display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-      gap: 26px; margin-top: 20px; align-items: stretch;
-    }
-    .hero-main {
-      background: radial-gradient(circle at top left, rgba(224,180,106,0.12), rgba(5,6,10,0.95));
-      border-radius: var(--radius-xl);
-      padding: 28px 26px 26px;
-      box-shadow: var(--shadow-soft);
-      border: 1px solid var(--border-soft);
-      position: relative; overflow: hidden;
-    }
-    .hero-pill {
-      display: inline-flex; align-items: center; gap: 8px;
-      padding: 4px 10px; border-radius: 999px;
-      border: 1px solid rgba(224,180,106,0.35);
-      background: linear-gradient(90deg, rgba(224,180,106,0.2), rgba(5,6,10,0.8));
-      font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
-      margin-bottom: 14px;
-    }
-    .hero-pill-dot {
-      width: 6px; height: 6px; border-radius: 999px;
-      background: var(--accent); box-shadow: 0 0 12px rgba(224,180,106,0.8);
-    }
-    .hero-name {
-      font-family: "Oswald", system-ui, sans-serif;
-      font-size: clamp(34px, 4vw, 40px);
-      letter-spacing: 0.17em; text-transform: uppercase; margin-bottom: 6px;
-    }
-    .hero-sub {
-      font-size: 12px; letter-spacing: 0.16em;
-      text-transform: uppercase; color: var(--muted); margin-bottom: 18px;
-    }
-    .hero-copy {
-      font-size: 14px; line-height: 1.7; color: #d3d6e6;
-      max-width: 520px; margin-bottom: 18px;
-    }
-    .hero-highlight-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; }
-    .hero-chip {
-      font-size: 12px; padding: 6px 10px; border-radius: 999px;
-      background: rgba(16,18,27,0.95); border: 1px solid var(--border-soft); color: var(--muted);
-    }
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
-
-    .btn-primary {
-      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-      padding: 10px 20px; font-size: 12px;
-      letter-spacing: 0.12em; text-transform: uppercase;
-      border-radius: 999px; border: none; cursor: pointer;
-      background: linear-gradient(135deg, #e3c48a, #e0b46a, #c08a42);
-      color: #1b1206;
-      box-shadow: 0 10px 30px rgba(224,180,106,0.4);
-      transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
-    }
-    .btn-primary:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 16px 40px rgba(224,180,106,0.5);
-      filter: brightness(1.03);
-    }
-    .btn-secondary {
-      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-      padding: 9px 16px; font-size: 12px; border-radius: 999px;
-      border: 1px solid var(--border-soft);
-      background: rgba(8,9,16,0.9); color: var(--muted); cursor: pointer;
-      transition: border-color 0.25s ease, color 0.25s ease, background 0.25s ease;
-    }
-    .btn-secondary:hover {
-      border-color: rgba(224,180,106,0.5);
-      color: var(--accent); background: rgba(12,13,22,0.95);
-    }
-    .hero-meta {
-      display: flex; flex-wrap: wrap; gap: 16px;
-      margin-top: 18px; font-size: 12px; color: var(--muted);
+    a {
+      color: inherit;
+      text-decoration: none;
     }
 
-    .hero-photo-card {
-      background: radial-gradient(circle at top, rgba(224,180,106,0.18), rgba(11,13,22,0.96));
-      border-radius: var(--radius-xl);
-      border: 1px solid var(--border-soft);
-      padding: 14px;
-      box-shadow: var(--shadow-soft);
-      display: flex; flex-direction: column; gap: 12px;
-      position: relative; overflow: hidden;
-    }
-    .hero-photo {
-      position: relative; border-radius: 20px; overflow: hidden;
-      aspect-ratio: 3/4;
-      background-image:
-        linear-gradient(135deg, rgba(0,0,0,0.35), rgba(0,0,0,0.1)),
-        url("hero.jpg");
-      background-size: cover; background-position: center;
-      border: 1px solid rgba(255,255,255,0.06);
-    }
-    .hero-stats {
-      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px; font-size: 12px;
-    }
-    .stat-card {
-      background: rgba(5,6,10,0.9);
-      border-radius: 14px; padding: 10px 10px 8px;
-      border: 1px solid rgba(255,255,255,0.06);
-    }
-    .stat-label {
-      font-size: 10px; text-transform: uppercase;
-      letter-spacing: 0.16em; color: var(--muted); margin-bottom: 4px;
-    }
-    .stat-value { font-size: 13px; font-weight: 600; }
-    .hero-badge {
-      font-size: 11px; color: var(--accent);
-      padding: 6px 10px; border-radius: 999px;
-      background: rgba(5,6,10,0.9);
-      border: 1px solid rgba(224,180,106,0.4);
-      align-self: flex-start;
-    }
-
-    /* BRANDS BAR */
-    .brands {
-      background: rgba(5, 6, 10, 0.98);
-      border-radius: 18px;
-      border: 1px solid var(--border-soft);
-      padding: 16px 18px 14px;
-      margin-top: 26px;
-    }
-    .brands .section-header { margin-bottom: 10px; }
-    .brand-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 22px;
-      align-items: center;
-      justify-content: center;
-    }
-    .brand-card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      min-width: 150px;
-      flex: 1;
-      max-width: 230px;
-      opacity: 0.9;
-      transition: opacity 0.2s ease, transform 0.2s ease;
-    }
-    .brand-card:hover {
-      opacity: 1;
-      transform: translateY(-2px);
-    }
-    .brand-card img {
-      width: 200px;
+    img {
       max-width: 100%;
-      max-height: 72px;
-      object-fit: contain;
-      filter: grayscale(100%);
-    }
-    .brand-caption {
-      font-size: 11px;
-      color: #c2c6da;
-      line-height: 1.4;
-      text-align: center;
-    }
-    .brand-caption span {
       display: block;
-      font-size: 10px;
-      color: #8f94ad;
-      margin-top: 1px;
     }
 
-    /* SECTIONS */
-    .sections { margin-top: 32px; display: flex; flex-direction: column; gap: 28px; }
-    .section {
-      background: rgba(10,12,20,0.98);
-      border-radius: var(--radius-lg);
-      border: 1px solid var(--border-soft);
-      padding: 18px;
-      box-shadow: var(--shadow-soft);
+    .page {
+      max-width: 1200px;
+      margin: 0 auto 80px;
+      padding: 20px 20px 80px;
     }
-    .section-header {
-      display: flex; align-items: baseline; justify-content: space-between;
-      gap: 10px; margin-bottom: 14px;
-    }
-    .section-title {
-      font-size: 15px; letter-spacing: 0.16em; text-transform: uppercase;
-    }
-    .section-subtitle { font-size: 12px; color: var(--muted); }
 
-    /* ABOUT */
-    .about-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-      gap: 20px; font-size: 13px; color: #d0d3e4;
+    header.site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 32px;
+      padding: 8px 0 12px;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: linear-gradient(to bottom, #040712f2, #040712cc 60%, #04071200 100%);
+      backdrop-filter: blur(20px);
     }
-    .about-text p { margin-bottom: 10px; line-height: 1.7; }
-    .spec-grid {
-      display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    .brand-mark {
+      display: flex;
+      align-items: baseline;
       gap: 10px;
     }
-    .spec-item {
-      background: var(--bg-soft); border-radius: 12px;
-      padding: 8px 10px; border: 1px solid rgba(255,255,255,0.03);
-    }
-    .spec-label { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
-    .spec-value { font-size: 13px; font-weight: 500; }
 
-    /* TIMELINE */
-    .timeline { display: grid; gap: 10px; font-size: 13px; }
-    .timeline-item {
-      display: grid; grid-template-columns: 64px minmax(0, 1fr) 0.9fr;
-      gap: 12px; padding: 8px 10px;
-      border-radius: 10px; background: rgba(15,17,28,0.95);
-      border: 1px solid rgba(255,255,255,0.03);
+    .brand-mark span.name {
+      letter-spacing: 0.22em;
+      font-family: "Space Grotesk", system-ui, sans-serif;
+      font-weight: 600;
+      font-size: 18px;
     }
-    .timeline-year {
-      font-family: "Oswald", system-ui, sans-serif;
-      font-size: 14px; letter-spacing: 0.18em;
-      text-transform: uppercase; color: var(--accent); align-self: center;
+
+    .brand-mark span.subtitle {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--text-mute);
+      letter-spacing: 0.18em;
     }
-    .timeline-main { font-weight: 500; }
-    .timeline-note { font-size: 12px; color: var(--muted); }
+
+    nav.top-nav {
+      display: flex;
+      gap: 18px;
+      font-size: 12px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-mute);
+    }
+
+    nav.top-nav a {
+      padding-bottom: 4px;
+      border-bottom: 2px solid transparent;
+    }
+
+    nav.top-nav a:hover {
+      color: var(--text-main);
+      border-color: var(--accent);
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    section {
+      scroll-margin-top: 80px;
+    }
+
+    /* HERO / PROFILE */
+    .section-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .hero-left,
+    .hero-right {
+      background: radial-gradient(circle at top left, #1c2038 0, #050816 55%);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-soft);
+      padding: 28px 30px 26px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-left::before {
+      content: "";
+      position: absolute;
+      inset: -40%;
+      opacity: 0.19;
+      background:
+        radial-gradient(circle at 10% 0%, #f6c05c55 0, transparent 55%),
+        radial-gradient(circle at 90% 30%, #5865f555 0, transparent 55%);
+      pointer-events: none;
+      mix-blend-mode: screen;
+    }
+
+    .tagline-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 14px;
+      border-radius: var(--radius-pill);
+      border: 1px solid #f6c05c55;
+      background: linear-gradient(90deg, #f6c05c33, #1e213800);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--accent);
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .tag-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: radial-gradient(circle, #ffe6a9, #f6c05c);
+      box-shadow: 0 0 16px #f6c05caa;
+    }
+
+    .hero-name {
+      font-family: "Space Grotesk", system-ui, sans-serif;
+      font-size: 40px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-role {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--text-mute);
+      margin-bottom: 22px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-bio-ko {
+      font-size: 13px;
+      color: var(--text-main);
+      margin-bottom: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-bio-en {
+      font-size: 12px;
+      color: var(--text-sub);
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-features {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-feature {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 12px;
+      border-radius: var(--radius-pill);
+      background: var(--chip-bg);
+      border: 1px solid var(--chip-border);
+      font-size: 11px;
+      color: var(--text-sub);
+    }
+
+    .hero-feature strong {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .btn-primary,
+    .btn-ghost {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      border-radius: var(--radius-pill);
+      padding: 10px 20px;
+      border: 1px solid transparent;
+      cursor: default;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #f6c05c, #fddf9a);
+      color: #151114;
+      box-shadow: 0 14px 30px rgba(246, 192, 92, 0.4);
+      font-weight: 600;
+    }
+
+    .btn-ghost {
+      border-color: var(--chip-border);
+      background: rgba(9, 11, 24, 0.9);
+      color: var(--text-sub);
+    }
+
+    .hero-meta {
+      font-size: 11px;
+      color: var(--text-mute);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 16px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-meta span.label {
+      color: var(--text-sub);
+    }
+
+    .hero-right {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      background: radial-gradient(circle at 10% 0, #313858 0, #050815 55%);
+    }
+
+    .hero-photo {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: #111320;
+      border: 1px solid #2a3147;
+      flex: 1;
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .stat-card {
+      border-radius: var(--radius-md);
+      background: #090d1d;
+      border: 1px solid var(--border-soft);
+      padding: 12px 12px 11px;
+    }
+
+    .stat-label {
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-mute);
+      margin-bottom: 6px;
+    }
+
+    .stat-value {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .stat-sub {
+      font-size: 11px;
+      color: var(--text-sub);
+    }
+
+    .availability-pill {
+      margin-top: 6px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      border-radius: var(--radius-pill);
+      padding: 6px 12px;
+      background: #171828;
+      border: 1px solid #f6c05c55;
+      color: var(--accent);
+    }
+
+    .availability-pill span.dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: radial-gradient(circle, #9cffc0, #3deb81);
+      box-shadow: 0 0 12px #3deb81aa;
+    }
+
+    /* BRANDS */
+    .section-brands {
+      background: linear-gradient(135deg, #060814, #090d1d);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-soft);
+      padding: 20px 24px 18px;
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 12px;
+    }
+
+    .section-header h2 {
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .section-header p {
+      font-size: 11px;
+      color: var(--text-mute);
+    }
+
+    .brand-row {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .brand-card {
+      background: #070a16;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-soft);
+      padding: 12px 10px 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      justify-content: space-between;
+    }
+
+    .brand-logo-wrap {
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.9;
+    }
+
+    .brand-logo-wrap img {
+      max-height: 30px;
+      object-fit: contain;
+      filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.8));
+    }
+
+    .brand-title {
+      font-size: 11px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .brand-sub {
+      font-size: 10px;
+      color: var(--text-mute);
+      line-height: 1.5;
+    }
+
+    /* PROFILE SECTION */
+    .section-profile {
+      background: linear-gradient(135deg, #060814, #0b1020);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-soft);
+      padding: 22px 24px 22px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);
+      gap: 18px;
+    }
+
+    .section-profile h2 {
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .profile-body {
+      font-size: 13px;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .profile-body-en {
+      font-size: 12px;
+      color: var(--text-sub);
+    }
+
+    .profile-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      font-size: 11px;
+    }
+
+    .profile-item {
+      background: #080b18;
+      border-radius: var(--radius-md);
+      padding: 10px 11px;
+      border: 1px solid var(--border-soft);
+    }
+
+    .profile-item .label {
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-mute);
+      margin-bottom: 4px;
+    }
+
+    .profile-item .value {
+      font-size: 11px;
+      color: var(--text-main);
+    }
+
+    /* CAREER HIGHLIGHTS */
+    .section-career {
+      background: linear-gradient(135deg, #050814, #0d1123);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-soft);
+      padding: 22px 24px 22px;
+    }
+
+    .section-career h2 {
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .career-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      font-size: 12px;
+    }
+
+    .career-item {
+      background: #070b18;
+      border-radius: var(--radius-md);
+      padding: 10px 12px;
+      border: 1px solid var(--border-soft);
+    }
+
+    .career-item .year {
+      font-size: 11px;
+      color: var(--text-mute);
+      margin-bottom: 3px;
+    }
+
+    .career-item .title {
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .career-item .desc {
+      font-size: 11px;
+      color: var(--text-sub);
+    }
 
     /* MEDIA */
+    .section-media {
+      background: linear-gradient(135deg, #050814, #0c111f);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-soft);
+      padding: 22px 24px 22px;
+    }
+
+    .section-media h2 {
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .section-media p.lead {
+      font-size: 11px;
+      color: var(--text-mute);
+      margin-bottom: 16px;
+    }
+
     .media-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
+      gap: 10px;
     }
-    .media-card {
-      position: relative; overflow: hidden;
-      border-radius: 14px; background: #000;
-      aspect-ratio: 4/3;
-      border: 1px solid rgba(255,255,255,0.06);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.6);
-    }
-    .media-card img {
-      width: 100%; height: 100%; object-fit: cover;
-      transform: scale(1.03); opacity: 0.9;
-      transition: transform 0.35s ease, opacity 0.35s ease;
-    }
-    /* F1 사진만 얼굴이 보이도록 컷 위치 조정 */
-    .media-card-f1 img {
-      object-position: 50% 25%;
-    }
-    .media-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.1));
-      display: flex; align-items: flex-end; padding: 10px 12px;
-    }
-    .media-caption { font-size: 11px; color: #e4e6f0; line-height: 1.5; }
-    .media-tag {
-      font-size: 10px; letter-spacing: 0.14em;
-      text-transform: uppercase; color: var(--accent); margin-bottom: 3px;
-    }
-    .media-card:hover img { transform: scale(1.06); opacity: 1; }
 
-    /* BENEFITS / CONTACT */
-    .benefit-grid {
+    .media-card {
+      background: #060915;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-soft);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .media-thumb {
+      position: relative;
+      height: 180px;
+      overflow: hidden;
+    }
+
+    .media-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: scale(1.02);
+    }
+
+    .media-body {
+      padding: 10px 11px 10px;
+      font-size: 11px;
+    }
+
+    .media-title {
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+
+    .media-desc {
+      font-size: 11px;
+      color: var(--text-sub);
+    }
+
+    /* PARTNERSHIP */
+    .section-partnership {
+      background: linear-gradient(135deg, #050814, #080e1e);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-soft);
+      padding: 22px 24px 22px;
+    }
+
+    .section-partnership h2 {
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .partnership-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.9fr);
-      gap: 20px; font-size: 13px;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: 14px;
+      font-size: 12px;
     }
-    .benefit-list { list-style: none; display: grid; gap: 8px; }
-    .benefit-list li { display: flex; gap: 8px; align-items: flex-start; }
-    .dot {
-      width: 6px; height: 6px; border-radius: 999px;
-      margin-top: 6px; background: var(--accent);
+
+    .partnership-body {
+      color: var(--text-sub);
     }
-    .benefit-label { font-weight: 500; }
-    .benefit-desc { color: var(--muted); margin-top: 2px; }
+
+    .partnership-body strong {
+      color: var(--text-main);
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .pill {
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--chip-border);
+      background: #050814;
+      font-size: 10px;
+      color: var(--text-sub);
+    }
+
+    .partner-note {
+      font-size: 11px;
+      color: var(--accent);
+      margin-top: 8px;
+    }
+
+    .partnership-right {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .package-card {
+      background: #050814;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-soft);
+      padding: 10px 12px;
+      font-size: 11px;
+    }
+
+    .package-title {
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+
+    .package-desc {
+      color: var(--text-sub);
+    }
+
+    /* CONTACT */
+    .section-contact {
+      background: linear-gradient(135deg, #050814, #080d1a);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border-soft);
+      box-shadow: var(--shadow-soft);
+      padding: 22px 24px 22px;
+    }
+
+    .section-contact h2 {
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .section-contact p.sub {
+      font-size: 11px;
+      color: var(--text-mute);
+      margin-bottom: 14px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      font-size: 12px;
+    }
 
     .contact-card {
-      background: var(--bg-soft); border-radius: 14px;
-      padding: 12px; border: 1px solid rgba(255,255,255,0.04);
-      display: grid; gap: 8px;
+      background: #060915;
+      border-radius: var(--radius-md);
+      padding: 10px 12px;
+      border: 1px solid var(--border-soft);
     }
-    .contact-row {
-      display: flex; justify-content: space-between;
-      gap: 12px; font-size: 13px;
+
+    .contact-card h3 {
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-sub);
+      margin-bottom: 4px;
     }
-    .contact-label { color: var(--muted); }
-    .contact-value { font-weight: 500; }
-    .contact-note { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+    .contact-main {
+      font-size: 12px;
+      color: var(--text-main);
+    }
+
+    .contact-link {
+      font-size: 12px;
+      color: var(--accent);
+      word-break: break-all;
+    }
 
     footer {
-      margin-top: 30px; font-size: 11px;
-      color: var(--muted); text-align: center;
+      margin-top: 18px;
+      font-size: 10px;
+      color: var(--text-mute);
+      text-align: right;
     }
 
-    /* RESPONSIVE */
-    @media (max-width: 900px) {
-      .hero { grid-template-columns: minmax(0, 1fr); }
-      .hero-photo-card { order: -1; }
-      .about-grid, .benefit-grid { grid-template-columns: minmax(0, 1fr); }
-      .media-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    }
-    @media (max-width: 720px) {
-      .brand-row { justify-content: center; }
-      .brand-card { max-width: 180px; }
-    }
-    @media (max-width: 640px) {
-      .nav-inner { flex-direction: column; align-items: flex-start; }
-      .nav-links { font-size: 10px; gap: 10px; flex-wrap: wrap; }
-      .timeline-item { grid-template-columns: 1fr; }
-      .contact-row { flex-direction: column; align-items: flex-start; }
-      .media-grid { grid-template-columns: minmax(0, 1fr); }
+    @media (max-width: 960px) {
+      header.site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .section-hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .section-profile {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .brand-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .profile-grid,
+      .career-grid,
+      .media-grid,
+      .contact-grid,
+      .partnership-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
     }
   </style>
 </head>
 <body>
-  <header class="nav">
-    <div class="nav-inner">
-      <div class="nav-logo">
-        <div class="nav-logo-main">KIM MINSANG</div>
-        <div class="nav-logo-tag">GT & TOURING CAR RACING DRIVER</div>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand-mark">
+        <span class="name">KIM MINSANG</span>
+        <span class="subtitle">GT & TOURING CAR RACING DRIVER</span>
       </div>
-      <nav class="nav-links">
-        <a href="#about">PROFILE</a>
-        <a href="#career">RESULTS</a>
-        <a href="#media">MEDIA</a>
-        <a href="#benefits">PARTNERSHIP</a>
-        <a href="#contact">CONTACT</a>
+      <nav class="top-nav">
+        <a href="#profile">Profile</a>
+        <a href="#results">Results</a>
+        <a href="#media">Media</a>
+        <a href="#partnership">Partnership</a>
+        <a href="#contact">Contact</a>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="page">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-main">
-        <div class="hero-pill">
-          <div class="hero-pill-dot"></div>
-          <span>Official Driver Profile 2026</span>
-        </div>
-        <h1 class="hero-name">KIM MINSANG</h1>
-        <div class="hero-sub">
-          GT & Touring Car Racing Driver · AMG Main Instructor
-        </div>
-        <p class="hero-copy">
-          카트에서 시작해 포뮬러, GT, 스톡카까지 10년 이상 다양한 카테고리를 경험한
-          투어링카 드라이버 김민상입니다. 안정적인 타이어·페이스 관리와
-          팀 전체 퍼포먼스를 끌어올리는 커뮤니케이션 능력을 동시에 갖추고 있습니다.
-          <span class="en">
+    <main>
+      <!-- HERO -->
+      <section id="profile" class="section-hero">
+        <div class="hero-left">
+          <div class="tagline-pill">
+            <span class="tag-dot"></span>
+            <span>OFFICIAL DRIVER PROFILE 2026</span>
+          </div>
+
+          <h1 class="hero-name">KIM MINSANG</h1>
+          <div class="hero-role">
+            GT & TOURING CAR RACING DRIVER · AMG MAIN INSTRUCTOR
+          </div>
+
+          <p class="hero-bio-ko">
+            카트에서 시작해 포뮬러, GT, 스톡카까지 10년 이상 다양한 카테고리를 경험한
+            투어링카 드라이버 김민상입니다. 안정적인 타이어·페이스 관리와 팀 전체 퍼포먼스를
+            끌어올리는 커뮤니케이션 능력을 동시에 갖추고 있습니다.
+          </p>
+          <p class="hero-bio-en">
             From karting to formula, GT and stock cars, Minsang Kim is a touring car
-            specialist with more than ten seasons of experience. He combines strong
-            tyre and pace management with clear communication that lifts the
-            performance of the entire team.
-          </span>
-        </p>
+            specialist with more than ten seasons of experience. He combines strong tyre and
+            pace management with clear communication that lifts the performance of the entire team.
+          </p>
 
-        <div class="hero-highlight-row">
-          <div class="hero-chip">
-            KARA 국내 A 라이선스 · 국제 C 갱신 가능
-            <span class="en">KARA National A licence · FIA International C renewable</span>
+          <div class="hero-features">
+            <div class="hero-feature">
+              <strong>KARA 국내 A 라이선스 · 국제 C 갱신 가능</strong>
+              <span>국내 상위 카테고리 및 해외 레이스 출전 기반</span>
+            </div>
+            <div class="hero-feature">
+              <strong>SuperRace / Radical / GT / Ferrari 488 Challenge</strong>
+              <span>다수 GT & 원메이크 시리즈 경험</span>
+            </div>
+            <div class="hero-feature">
+              <strong>AMG 메인 인스트럭터 &amp; TeamHMC 감독</strong>
+              <span>인스트럭터 레벨 커뮤니케이션과 데이터 기반 피드백</span>
+            </div>
           </div>
-          <div class="hero-chip">
-            SuperRace / Radical / GT / Ferrari 488 Challenge
-            <span class="en">Experience across multiple GT & one-make series</span>
+
+          <div class="hero-buttons">
+            <span class="btn-primary">Partner with Minsang</span>
+            <span class="btn-ghost">View career highlights</span>
           </div>
-          <div class="hero-chip">
-            AMG 메인 인스트럭터 &amp; TeamHMC 감독
-            <span class="en">AMG main instructor &amp; TeamHMC race director</span>
+
+          <div class="hero-meta">
+            <span><span class="label">1998.04.19 ·</span> 171cm / 58kg</span>
+            <span><span class="label">Base ·</span> Korea</span>
+            <span><span class="label">Languages ·</span> Korean, English</span>
           </div>
         </div>
 
-        <div class="hero-actions">
-          <button class="btn-primary" onclick="document.getElementById('benefits').scrollIntoView({behavior:'smooth'})">
-            PARTNER WITH MINSANG
-          </button>
-          <button class="btn-secondary" onclick="document.getElementById('career').scrollIntoView({behavior:'smooth'})">
-            VIEW CAREER HIGHLIGHTS
-          </button>
+        <div class="hero-right">
+          <div class="hero-photo">
+            <img src="hero.jpg" alt="Racing driver Kim Minsang portrait" />
+          </div>
+          <div class="hero-stats-row">
+            <div class="stat-card">
+              <div class="stat-label">SEASONS</div>
+              <div class="stat-value">10+ years</div>
+              <div class="stat-sub">From karting to GT</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">SERIES</div>
+              <div class="stat-value">SuperRace, Radical, GT</div>
+              <div class="stat-sub">Super 6000 &amp; one-make</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">ROLE</div>
+              <div class="stat-value">Driver · Coach · Director</div>
+              <div class="stat-sub">Race &amp; customer programmes</div>
+            </div>
+          </div>
+          <div class="availability-pill">
+            <span class="dot"></span>
+            <span>2026 GT / Endurance & Brand Partnership Available</span>
+          </div>
         </div>
+      </section>
 
-        <div class="hero-meta">
-          <span>1998.04.19 · 171cm / 58kg</span>
-          <span>Base: Korea · Languages: Korean, English</span>
-        </div>
-      </div>
-
-      <aside class="hero-photo-card">
-        <div class="hero-photo"></div>
-        <div class="hero-stats">
-          <div class="stat-card">
-            <div class="stat-label">SEASONS</div>
-            <div class="stat-value">10+ years</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-label">SERIES</div>
-            <div class="stat-value">SuperRace, Radical, GT</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-label">ROLE</div>
-            <div class="stat-value">Driver · Coach · Director</div>
-          </div>
-        </div>
-        <div class="hero-badge">
-          2026 GT / Endurance & Brand Partnership Available
-        </div>
-      </aside>
-    </section>
-
-    <!-- BRAND BAR -->
-    <section class="section brands">
-      <div class="section-header">
-        <h2 class="section-title">BRANDS & SERIES</h2>
-        <p class="section-subtitle">
-          함께 달려온 브랜드 &amp; 시리즈
-          <span class="en">Brands and series Minsang has worked with</span>
-        </p>
-      </div>
-      <div class="brand-row">
-        <div class="brand-card">
-          <img src="amg.svg.jpg" alt="Mercedes-AMG" />
-          <div class="brand-caption">
-            Mercedes-AMG
-            <span>
-              AMG 메인 인스트럭터 · 고객 경험 프로그램
-              <span class="en">Main instructor in AMG customer experience programmes</span>
-            </span>
-          </div>
-        </div>
-        <div class="brand-card">
-          <img src="teamhmc.svg.avif" alt="TeamHMC" />
-          <div class="brand-caption">
-            TeamHMC / Hyundai N Festival
-            <span>
-              팀 감독 · 레이스 운영 &amp; 코칭
-              <span class="en">Team director · race operations &amp; coaching</span>
-            </span>
-          </div>
-        </div>
-        <div class="brand-card">
-          <img src="atlasbx.svg.gif" alt="AtlasBX" />
-          <div class="brand-caption">
-            AtlasBX
-            <span>
-              타이어 테스트 드라이버
-              <span class="en">Tyre test driver &amp; development feedback</span>
-            </span>
-          </div>
-        </div>
-        <div class="brand-card">
-          <img src="teamhooks.png" alt="Team Hooks Motorsport" />
-          <div class="brand-caption">
-            Team Hooks Motorsport
-            <span>
-              Super 6000 / GT 프로그램 레이싱 드라이버
-              <span class="en">Super 6000 &amp; GT programme race driver</span>
-            </span>
-          </div>
-        </div>
-        <div class="brand-card">
-          <img src="superrace.svg.jpg" alt="SuperRace Championship" />
-          <div class="brand-caption">
-            CJ Logistics SuperRace Championship
-            <span>
-              GT2 · Super 6000 · GT1 · SR1 · GT-A 출전
-              <span class="en">Entries across GT2, Super 6000, GT1, SR1 and GT-A</span>
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="sections">
-      <!-- ABOUT -->
-      <section id="about" class="section">
+      <!-- BRANDS & SERIES -->
+      <section class="section-brands">
         <div class="section-header">
-          <h2 class="section-title">DRIVER PROFILE · 드라이버 프로필</h2>
-          <p class="section-subtitle">
-            레이싱 DNA와 인스트럭터형 커뮤니케이션
-            <span class="en">Racing DNA with instructor-level communication</span>
+          <h2>BRANDS & SERIES</h2>
+          <p>함께 달려온 브랜드 & 시리즈 · Brands and series Minsang has worked with</p>
+        </div>
+
+        <div class="brand-row">
+          <div class="brand-card">
+            <div class="brand-logo-wrap">
+              <img src="amg.svg.jpg" alt="Mercedes-AMG" />
+            </div>
+            <div>
+              <div class="brand-title">Mercedes-AMG</div>
+              <div class="brand-sub">
+                AMG 메인 인스트럭터로서 고객 프로그램<br />
+                Main instructor in AMG customer experience programmes
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-card">
+            <div class="brand-logo-wrap">
+              <img src="teamhmc.svg.avif" alt="TeamHMC" />
+            </div>
+            <div>
+              <div class="brand-title">TeamHMC / Hyundai N Festival</div>
+              <div class="brand-sub">
+                팀 감독 · 레이스 운영 & 코칭<br />
+                Team director · race operations &amp; coaching
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-card">
+            <div class="brand-logo-wrap">
+              <img src="atlasbx.svg.gif" alt="AtlasBX" />
+            </div>
+            <div>
+              <div class="brand-title">AtlasBX</div>
+              <div class="brand-sub">
+                타이어 테스트 드라이버<br />
+                Tyre test driver &amp; development feedback
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-card">
+            <div class="brand-logo-wrap">
+              <img src="teamhooks.svg" alt="Team Hooks Motorsport" />
+            </div>
+            <div>
+              <div class="brand-title">Team Hooks Motorsport</div>
+              <div class="brand-sub">
+                Super 6000 / GT 프로그램 레이싱 드라이버<br />
+                Super 6000 &amp; GT programme race driver
+              </div>
+            </div>
+          </div>
+
+          <div class="brand-card">
+            <div class="brand-logo-wrap">
+              <img src="superrace.svg.jpg" alt="CJ Logistics SuperRace" />
+            </div>
+            <div>
+              <div class="brand-title">CJ Logistics SuperRace</div>
+              <div class="brand-sub">
+                GT2 · Super 6000 · GT1 · SR1 · GT-A 출전<br />
+                Entries across GT2, Super 6000, GT1, SR1 and GT-A
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DRIVER PROFILE -->
+      <section id="results" class="section-profile">
+        <div>
+          <h2>DRIVER PROFILE · 드라이버 프로필</h2>
+          <p class="profile-body">
+            김민상은 카트 데뷔 이후, 국내 카트 챔피언십·Radical·SuperRace Super 6000·GT1 등
+            다양한 카테고리를 거치며 성장한 투어링카 스페셜리스트입니다. 챔피언십 포디움과 예선
+            상위권 기록을 꾸준히 만들어온 경험을 바탕으로 시즌 전체를 바라보는 레이스 운영을
+            합니다.
+          </p>
+          <p class="profile-body-en">
+            From national karting to Radical prototypes, SuperRace Super 6000 and GT1,
+            Minsang has built his career across a wide range of categories. Consistent
+            podiums and front-row qualifying pace allow him to manage a season, not just a
+            single race.
+          </p>
+          <br />
+          <p class="profile-body">
+            드라이빙 스타일은 엔드에서 타이어의 슬립 앵글을 끝까지 활용해 베스트 랩을 뽑아내고,
+            결승 내구 상황에서는 타이어와 차량 손상을 최소화하며 페이스를 관리하는 타입입니다.
+            늦은 에이펙스와 깊은 트레일 브레이킹을 활용해 안정적인 사용자 밸런스를 만들어가는 것이
+            특징입니다.
+          </p>
+          <p class="profile-body-en">
+            In qualifying he maximises slip angle and grip to extract the best lap. In
+            races and endurance stints he minimises tyre and car degradation while keeping
+            a strong, stable pace, using late apex lines and deep trail braking to stabilise
+            the car.
           </p>
         </div>
-        <div class="about-grid">
-          <div class="about-text">
-            <p>
-              김민상은 카트 데뷔 이후, 국내 카트 챔피언십·Radical·SuperRace Super 6000·GT1 등
-              다양한 카테고리를 거치며 성장해 온 투어링카 스페셜리스트입니다.
-              챔피언십 포디움과 예선 상위권 기록을 꾸준히 만들어 온 경험을 바탕으로
-              시즌 전체를 바라보는 레이스를 운영합니다.
-              <span class="en">
-                From national karting to Radical prototypes, SuperRace Super 6000 and GT1,
-                Minsang has built his career across a wide range of categories. Consistent
-                podiums and front-row qualifying pace allow him to manage a season, not just
-                a single race.
-              </span>
-            </p>
-            <p>
-              드라이빙 스타일은 예선에서는 타이어의 슬립 앵글을 끝까지 활용해 베스트 랩을
-              뽑아내고, 결승 및 내구 상황에서는 타이어와 차량 손상을 최소화하며 페이스를
-              관리하는 타입입니다. 늦은 에이펙스와 깊은 트레일 브레이킹을 활용해
-              안정적인 차량 밸런스를 만들어 가는 것이 특징입니다.
-              <span class="en">
-                In qualifying he maximises slip angle and grip to extract the best lap.
-                In races and endurance stints he minimises tyre and car degradation while
-                keeping a strong, stable pace, using late apex lines and deep trail braking
-                to stabilise the car.
-              </span>
-            </p>
-            <p>
-              또한 AMG 메인 인스트럭터와 TeamHMC 감독 경험을 통해 데이터 로거 해석,
-              엔지니어와의 피드백, 미캐닉·스태프와의 커뮤니케이션까지 팀 매니지먼트 전반에
-              기여할 수 있는 드라이버입니다. 스폰서 이벤트와 미디어 촬영 경험도 풍부해
-              브랜드가 원하는 방향의 연출에도 적극적으로 대응할 수 있습니다.
-              <span class="en">
-                His work as AMG main instructor and TeamHMC race director means he reads
-                data, communicates clearly with engineers and mechanics, and supports
-                sponsors and media events as a confident front person for the brand.
-              </span>
-            </p>
-          </div>
-          <div class="spec-grid">
-            <div class="spec-item">
-              <div class="spec-label">이름 · Name</div>
-              <div class="spec-value">김민상 (KIM Minsang)</div>
+
+        <div>
+          <div class="profile-grid">
+            <div class="profile-item">
+              <div class="label">이름 · Name</div>
+              <div class="value">김민상 (KIM Minsang)</div>
             </div>
-            <div class="spec-item">
-              <div class="spec-label">생년월일 · Date of birth</div>
-              <div class="spec-value">1998.04.19</div>
+            <div class="profile-item">
+              <div class="label">생년월일 · Date of birth</div>
+              <div class="value">1998.04.19</div>
             </div>
-            <div class="spec-item">
-              <div class="spec-label">신체 · Height / Weight</div>
-              <div class="spec-value">171cm / 58kg</div>
+            <div class="profile-item">
+              <div class="label">신체 · Height / Weight</div>
+              <div class="value">171cm / 58kg</div>
             </div>
-            <div class="spec-item">
-              <div class="spec-label">라이선스 · Licence</div>
-              <div class="spec-value">KARA 국내 A · 국제 C (갱신 가능)</div>
+            <div class="profile-item">
+              <div class="label">라이선스 · Licence</div>
+              <div class="value">KARA 국내 A · 국제 C (갱신 가능)</div>
             </div>
-            <div class="spec-item">
-              <div class="spec-label">주요 역할 · Main roles</div>
-              <div class="spec-value">AMG 메인 인스트럭터 · TeamHMC 감독</div>
+            <div class="profile-item">
+              <div class="label">주요 역할 · Main roles</div>
+              <div class="value">AMG 메인 인스트럭터 · TeamHMC 감독</div>
             </div>
-            <div class="spec-item">
-              <div class="spec-label">경험 차량 · Cars driven</div>
-              <div class="spec-value">
+            <div class="profile-item">
+              <div class="label">경력 차량 · Cars driven</div>
+              <div class="value">
                 AMG GT4, Ferrari 488 Challenge, Radical SR1, Genesis Coupe GT,
                 Avante N2, Super 6000 등
               </div>
@@ -618,315 +1008,206 @@
         </div>
       </section>
 
-      <!-- CAREER -->
-      <section id="career" class="section">
-        <div class="section-header">
-          <h2 class="section-title">CAREER HIGHLIGHTS · 주요 커리어</h2>
-          <p class="section-subtitle">
-            선택된 결과 &amp; 수상 내역
-            <span class="en">Selected results and awards</span>
-          </p>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-year">2014–15</div>
-            <div class="timeline-main">
-              All Korea Kart Championship KF-r 시리즈 챔피언
-              <span class="en">All Korea Kart Championship KF-r series champion</span>
-            </div>
-            <div class="timeline-note">
-              폴투윈 4회 기록, 주니어 시절부터 레이스 크래프트 증명
-              <span class="en">Four pole-to-win races demonstrated race craft from an early stage.</span>
+      <!-- CAREER HIGHLIGHTS (간단 버전 예시) -->
+      <section class="section-career">
+        <h2>CAREER HIGHLIGHTS · 주요 커리어</h2>
+        <div class="career-grid">
+          <div class="career-item">
+            <div class="year">2024–2025</div>
+            <div class="title">CJ SuperRace Super 6000 · GT 프로그램</div>
+            <div class="desc">
+              국내 최상위 스톡카 시리즈 참가, 시즌 풀 타임으로 Super 6000 클래스 경험 축적.
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-year">2017</div>
-            <div class="timeline-main">
-              SuperRace GT2 데뷔 5위 · 전남GT Super 6000 3위
-              <span class="en">SuperRace GT2 debut P5 · Jeonnam GT Super 6000 P3</span>
-            </div>
-            <div class="timeline-note">
-              포뮬러 르노 및 Super 6000 등 다양한 플랫폼 경험
-              <span class="en">Experience in Formula Renault and high-downforce stock car platforms.</span>
+          <div class="career-item">
+            <div class="year">2022–2023</div>
+            <div class="title">Radical · GT 및 원메이크 레이스</div>
+            <div class="desc">
+              Radical 챔피언십과 GT 레이스에서 포디움 및 상위권 기록 달성.
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-year">2018</div>
-            <div class="timeline-main">
-              Radical SR1 시리즈 우승 및 포디움 6회
-              <span class="en">Radical SR1 series winner with six podiums</span>
-            </div>
-            <div class="timeline-note">
-              하이 다운포스 머신에서의 안정적인 페이스 관리
-              <span class="en">Strong pace and consistency in high-downforce machinery.</span>
+          <div class="career-item">
+            <div class="year">AMG Programmes</div>
+            <div class="title">AMG Driving Instructor</div>
+            <div class="desc">
+              AMG 고객 프로그램에서 메인 인스트럭터로 활동, 고객 경험과 안전을 책임지는 역할.
             </div>
           </div>
-          <div class="timeline-item">
-            <div class="timeline-year">2019</div>
-            <div class="timeline-main">
-              SuperRace Cadillac 6000 다이나믹상 (연간 최다 추월상)
-              <span class="en">SuperRace Cadillac 6000 “Dynamic Award” (most overtakes of the year)</span>
-            </div>
-            <div class="timeline-note">
-              공격적인 레이스 감각과 클린 오버테이크 능력 인정
-              <span class="en">Recognised for aggressive yet clean overtaking ability.</span>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-year">2020–21</div>
-            <div class="timeline-main">
-              SuperRace Super 6000 &amp; GT1 상위권 경쟁
-              <span class="en">Front-running performances in Super 6000 and GT1</span>
-            </div>
-            <div class="timeline-note">
-              Super 6000 6위 2회, GT1 종합 시리즈 3위 및 포디움 3회
-              <span class="en">Two P6 finishes in Super 6000, GT1 overall P3 with three podiums.</span>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-year">2023–25</div>
-            <div class="timeline-main">
-              SR1 2위, GT-A 4위 3회 (4경기 출전)
-              <span class="en">SR1 P2, three P4 finishes in GT-A from four outings</span>
-            </div>
-            <div class="timeline-note">
-              제한된 출전에도 상위권 성적, 패키지 대비 높은 퍼포먼스
-              <span class="en">Delivered strong results despite limited entries and budget.</span>
+          <div class="career-item">
+            <div class="year">TeamHMC</div>
+            <div class="title">Team Director & Coach</div>
+            <div class="desc">
+              현대 N Festival TeamHMC 팀 감독으로 레이스 운영, 전략, 드라이버 코칭 담당.
             </div>
           </div>
         </div>
       </section>
 
-      <!-- MEDIA -->
-      <section id="media" class="section">
-        <div class="section-header">
-          <h2 class="section-title">MEDIA &amp; GALLERY</h2>
-          <p class="section-subtitle">
-            인스트럭터 · 피트월 · Super 6000 &amp; F1 모먼트
-            <span class="en">Instructor, pit wall, Super 6000 and F1 moments</span>
-          </p>
-        </div>
+      <!-- MEDIA & GALLERY -->
+      <section id="media" class="section-media">
+        <h2>MEDIA &amp; GALLERY</h2>
+        <p class="lead">Instructor · Pit wall · Super 6000 &amp; F1 moments</p>
+
         <div class="media-grid">
           <div class="media-card">
-            <img src="amg-instructor.jpg" alt="Racing instructor briefing inside a Mercedes vehicle" />
-            <div class="media-overlay">
-              <div class="media-caption">
-                <div class="media-tag">AMG EXPERIENCE</div>
-                고객 프로그램에서 무전 브리핑을 진행하는 인스트럭터 장면.
-                <span class="en">
-                  In-car briefing during a Mercedes-AMG customer experience programme.
-                </span>
+            <div class="media-thumb">
+              <img src="amg-instructor.jpg" alt="AMG experience briefing" />
+            </div>
+            <div class="media-body">
+              <div class="media-title">AMG EXPERIENCE</div>
+              <div class="media-desc">
+                고객 프로그램에서 무전 브리핑을 진행하는 인스트럭터 장면.<br />
+                Briefing customers as AMG main instructor.
               </div>
             </div>
           </div>
+
           <div class="media-card">
-            <img src="pitlane.jpg" alt="Racing director with headset and tablet on pitlane" />
-            <div class="media-overlay">
-              <div class="media-caption">
-                <div class="media-tag">TEAM DIRECTOR</div>
-                현대 N Festival 피트레인에서 레이스 운영을 총괄하는 모습.
-                <span class="en">
-                  Overseeing race operations on the pitlane at the Hyundai N Festival.
-                </span>
+            <div class="media-thumb">
+              <img src="pitlane.jpg" alt="TeamHMC pitlane director" />
+            </div>
+            <div class="media-body">
+              <div class="media-title">TEAM DIRECTOR</div>
+              <div class="media-desc">
+                현대 N Festival 피트레인에서 레이스 운영을 총괄하는 모습.<br />
+                Managing race operations and coaching at the pit wall.
               </div>
             </div>
           </div>
-          <div class="media-card media-card-f1">
-            <img src="f1-garage.jpg" alt="In the Mercedes F1 garage looking at the car" />
-            <div class="media-overlay">
-              <div class="media-caption">
-                <div class="media-tag">F1 GARAGE</div>
-                메르세데스 F1 팀 개러지에서 최신 레이스카 패키지를 벤치마킹.
-                <span class="en">
-                  Studying the latest Mercedes F1 race car package inside the garage.
-                </span>
-              </div>
-            </div>
-          </div>
+
           <div class="media-card">
-            <img src="teamhooks.jpg" alt="Young driver with international teammate in garage" />
-            <div class="media-overlay">
-              <div class="media-caption">
-                <div class="media-tag">EARLY GT DAYS</div>
-                Super 6000 시절 해외 드라이버와 함께한 초기 GT 커리어.
-                <span class="en">
-                  Early GT career at Super 6000 with international teammates.
-                </span>
+            <div class="media-thumb">
+              <img src="f1-garage.jpg" alt="Mercedes F1 garage visit" />
+            </div>
+            <div class="media-body">
+              <div class="media-title">F1 GARAGE</div>
+              <div class="media-desc">
+                메르세데스 F1 팀 개러지에서 최신 레이스카 패키지 벤치마킹.<br />
+                Observing latest F1 car package in the Mercedes garage.
               </div>
             </div>
           </div>
+
           <div class="media-card">
-            <img src="super6000.jpg" alt="Super 6000 Toyota Supra race car on track" />
-            <div class="media-overlay">
-              <div class="media-caption">
-                <div class="media-tag">SUPER 6000</div>
-                토요타 수프라 베이스 Super 6000 머신으로 치른 스프린트 레이스.
-                <span class="en">
-                  Sprint race in a Toyota Supra-based Super 6000 stock car.
-                </span>
+            <div class="media-thumb">
+              <img src="teamhooks.jpg" alt="Early GT days with overseas driver" />
+            </div>
+            <div class="media-body">
+              <div class="media-title">EARLY GT DAYS</div>
+              <div class="media-desc">
+                Super 6000 시절 해외 드라이버와 함께한 초기 GT 커리어.<br />
+                Early GT career moments with international teammates.
               </div>
             </div>
           </div>
+
           <div class="media-card">
-            <img src="broadcast.jpg" alt="Broadcast still introducing the driver" />
-            <div class="media-overlay">
-              <div class="media-caption">
-                <div class="media-tag">MEDIA EXPOSURE</div>
-                방송 인터뷰 및 소개 화면을 통해 노출되는 드라이버 이미지.
-                <span class="en">
-                  Broadcast appearance introducing Minsang as a racing driver.
-                </span>
+            <div class="media-thumb">
+              <img src="super6000.jpg" alt="Super 6000 race car" />
+            </div>
+            <div class="media-body">
+              <div class="media-title">SUPER 6000</div>
+              <div class="media-desc">
+                토요타 수프라 베이스 Super 6000 머신으로 치른 스프린트 레이스.<br />
+                Sprint race in the top-tier Super 6000 stock car.
+              </div>
+            </div>
+          </div>
+
+          <div class="media-card">
+            <div class="media-thumb">
+              <img src="broadcast.jpg" alt="Media exposure and TV interview" />
+            </div>
+            <div class="media-body">
+              <div class="media-title">MEDIA EXPOSURE</div>
+              <div class="media-desc">
+                방송 인터뷰 및 소개 화면을 통해 노출되는 드라이버 이미지.<br />
+                Driver image presented through TV interviews and features.
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- BENEFITS -->
-      <section id="benefits" class="section">
-        <div class="section-header">
-          <h2 class="section-title">PARTNERSHIP BENEFITS · 스폰서 혜택</h2>
-          <p class="section-subtitle">
-            함께할 때 브랜드가 얻는 가치
-            <span class="en">What your brand gains with Minsang</span>
-          </p>
-        </div>
-        <div class="benefit-grid">
-          <div>
-            <ul class="benefit-list">
-              <li>
-                <div class="dot"></div>
-                <div>
-                  <div class="benefit-label">레이스카 · 레이스 슈트 브랜딩</div>
-                  <div class="benefit-desc">
-                    GT &amp; 투어링카 레이스카, 레이스 슈트, 헬멧 등에 로고를 노출해
-                    온·오프라인 중계와 서킷 관람객을 대상으로 브랜드 인지도를 극대화합니다.
-                    <span class="en">
-                      Logos on race cars, suits and helmets create strong on-track and
-                      broadcast exposure for your brand.
-                    </span>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="dot"></div>
-                <div>
-                  <div class="benefit-label">브랜드 맞춤 드라이빙 콘텐츠 제작</div>
-                  <div class="benefit-desc">
-                    시승, 비교 테스트, 하이라이트 랩 등 브랜드 채널용 전용 콘텐츠를 제작해
-                    재미와 신뢰도를 동시에 확보합니다.
-                    <span class="en">
-                      Bespoke driving content—test drives, comparisons, hot laps—produced
-                      for your channels with both excitement and technical credibility.
-                    </span>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="dot"></div>
-                <div>
-                  <div class="benefit-label">VIP / B2B 트랙 데이 인스트럭션</div>
-                  <div class="benefit-desc">
-                    VIP 고객 및 파트너사를 초청한 서킷 이벤트에서
-                    안전 브리핑부터 인-카 인스트럭션까지 전 과정을 책임집니다.
-                    <span class="en">
-                      Full support for VIP &amp; B2B track days, from safety briefings
-                      to in-car instruction for your guests.
-                    </span>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="dot"></div>
-                <div>
-                  <div class="benefit-label">미디어 &amp; 광고 캠페인 참여</div>
-                  <div class="benefit-desc">
-                    TVC, 디지털 광고, 화보 촬영 등에서
-                    브랜드가 원하는 주행 연출과 이미지에 맞춰 전문적으로 대응합니다.
-                    <span class="en">
-                      Participation in TVCs, digital campaigns and photo shoots,
-                      delivering the driving and image your brand needs.
-                    </span>
-                  </div>
-                </div>
-              </li>
-            </ul>
+      <!-- PARTNERSHIP -->
+      <section id="partnership" class="section-partnership">
+        <h2>PARTNERSHIP · 스폰서십 제안</h2>
+        <div class="partnership-grid">
+          <div class="partnership-body">
+            김민상은 2026 시즌 GT &amp; 내구 레이스, 그리고 브랜드 드라이버 활동을 위한
+            파트너십을 모집하고 있습니다. 레이스 카와 데일리 카, 고객 프로그램을 아우르는
+            활용을 통해
+            <strong>“트랙·미디어·고객 경험”을 하나로 묶는 패키지</strong>를 제안합니다.
+            <div class="pill-list">
+              <div class="pill">머신 &amp; 레이스 엔트리</div>
+              <div class="pill">레이스카 래핑 &amp; 팀 유니폼</div>
+              <div class="pill">B2B / VIP 트랙데이</div>
+              <div class="pill">콘텐츠 &amp; SNS·YouTube 노출</div>
+              <div class="pill">고객 동승 / 택시 프로그램</div>
+            </div>
+            <div class="partner-note">
+              · 2026 시즌 GT / 내구 프로그램 및 브랜드 전속 드라이버 형태 협의 가능
+            </div>
           </div>
-          <div>
-            <div class="contact-card">
-              <div class="contact-row">
-                <div class="contact-label">파트너십 범위<br /><span class="en">Scope</span></div>
-                <div class="contact-value">
-                  2026 시즌 GT / 투어링카, 타이어 &amp; 오일, 라이프스타일 브랜드 등 협의 가능
-                  <span class="en">
-                    Open to GT / touring car programmes, tyre &amp; oil partners and
-                    lifestyle brands for the 2026 season.
-                  </span>
-                </div>
+          <div class="partnership-right">
+            <div class="package-card">
+              <div class="package-title">Race Programme · 레이스 프로그램</div>
+              <div class="package-desc">
+                국내 SuperRace 및 GT·원메이크 챔피언십을 기반으로 한 풀 시즌 또는 주요 라운드
+                참가 패키지.
               </div>
-              <div class="contact-row">
-                <div class="contact-label">지역<br /><span class="en">Regions</span></div>
-                <div class="contact-value">
-                  한국 기반 · 아시아 레이스 프로그램 확장 가능
-                  <span class="en">
-                    Based in Korea with flexibility to race across Asia.
-                  </span>
-                </div>
+            </div>
+            <div class="package-card">
+              <div class="package-title">Brand Driver · 브랜드 드라이버</div>
+              <div class="package-desc">
+                시승회, 런칭 이벤트, 콘텐츠 제작 등에서 브랜드를 대표하는 공식 드라이버 역할
+                수행.
               </div>
-              <p class="contact-note">
-                구체적인 시즌 플랜, 예산, 노출 자산은 브랜드 니즈에 맞춰 커스터마이징 가능합니다.
-                <span class="en">
-                  Season plans, budgets and exposure assets can be customised to your needs.
-                </span>
-              </p>
+            </div>
+            <div class="package-card">
+              <div class="package-title">Corporate Experience · 고객 프로그램</div>
+              <div class="package-desc">
+                AMG 및 TeamHMC에서 검증된 인스트럭터 경험을 바탕으로 한 VIP / 임직원 드라이빙
+                프로그램 구성.
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- CONTACT -->
-      <section id="contact" class="section">
-        <div class="section-header">
-          <h2 class="section-title">CONTACT · 문의</h2>
-          <p class="section-subtitle">
-            스폰서십 및 파트너십 문의
-            <span class="en">For sponsorship and partnership enquiries</span>
-          </p>
-        </div>
-        <div class="contact-card">
-          <div class="contact-row">
-            <div class="contact-label">Management</div>
-            <div class="contact-value">
-              FLORD Motorsport<br />
-              Flord Park
-            </div>
+      <section id="contact" class="section-contact">
+        <h2>CONTACT</h2>
+        <p class="sub">
+          파트너십 및 매니지먼트 문의 · Partnership &amp; management contact
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Management · 매니지먼트</h3>
+            <p class="contact-main">MSG 모터스포츠 (MSG Motorsports)</p>
           </div>
-          <div class="contact-row">
-            <div class="contact-label">E-mail</div>
-            <div class="contact-value">
-              flord1228@gmail.com
-            </div>
+
+          <div class="contact-card">
+            <h3>E-mail · 이메일</h3>
+            <a class="contact-link" href="mailto:awfg4110@gmail.com">
+              awfg4110@gmail.com
+            </a>
           </div>
-          <div class="contact-row">
-            <div class="contact-label">Phone</div>
-            <div class="contact-value">
-              +82-10-2057-2727
-            </div>
+
+          <div class="contact-card">
+            <h3>Phone · 전화</h3>
+            <a class="contact-link" href="tel:+821041100493">
+              +82 10-4110-0493
+            </a>
           </div>
-          <p class="contact-note">
-            메일 또는 메시지로 연락 주시면, 2026 시즌 계획과 함께 상세한 파트너십 패키지를 제안드리겠습니다.
-            <span class="en">
-              Please reach out by e-mail or phone and we will share the 2026 season plan
-              and a tailored partnership package.
-            </span>
-          </p>
         </div>
       </section>
-    </div>
 
-    <footer>
-      © 2026 KIM MINSANG · Racing Driver Profile. All rights reserved.
-    </footer>
-  </main>
+      <footer>
+        © 2026 Kim Minsang · Profile site for partners &amp; sponsors
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
